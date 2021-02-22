@@ -10,4 +10,9 @@ public class CalcController {
     private int add(int n, int m){
         return n + m;
     }
+
+    @GetMapping("/subtract")
+    private int subtract(int n, int m){
+        return n - m;
+    }
 }
