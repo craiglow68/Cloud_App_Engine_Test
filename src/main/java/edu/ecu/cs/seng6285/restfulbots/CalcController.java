@@ -20,4 +20,9 @@ public class CalcController {
     private int times(int n, int m){
         return n * m;
     }
+
+    @GetMapping("/div")
+    private int div(int n, int m){
+        return n / m;
+    }
 }
