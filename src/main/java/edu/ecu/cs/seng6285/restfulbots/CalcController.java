@@ -25,4 +25,9 @@ public class CalcController {
     private int div(int n, int m){
         return n / m;
     }
+
+    @GetMapping("/neg")
+    private int add(int n){
+        return n * -1;
+    }
 }
