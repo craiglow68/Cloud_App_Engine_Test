@@ -15,4 +15,9 @@ public class CalcController {
     private int subtract(int n, int m){
         return n - m;
     }
+
+    @GetMapping("/times")
+    private int times(int n, int m){
+        return n * m;
+    }
 }
